@@ -1,0 +1,22 @@
+//exercice 01:
+on doit  générer les nombres premiers p et q de taille bits/2
+
+//exercice 2:
+Lorsque Bob veut envoyer un message confidentiel M à Alice, il le chiffre avec la clé publique P de Alice et envoie
+le résultat P(M) à Alice qui le déchiffre avec sa clé secrète S pour obtenir M = S(P(M)).
+
+
+operation :
+exponentielle modulaire 
+
+//exercice 3:
+autenticité
+Alice chiffre le message avec sa clé secrète (elle est la seule à pouvoir le faire)
+et l’envoie à Bob(s) qui le déchiffre avec la clé publique de Alice.
+
+//exercice 4:
+1/c'est de transformer un chiffré d’un message m en un chiffré pour un message f(m) pour une fonction f connue sans connaître le message originel m ni obtenir d’information sur lui 
+
+Cette propriété n’est pas toujours désirable, puisqu’elle peut permettre à un attaquant de modifier le contenus de messages. Pour l'illustration, mettons qu’une banque chiffre une transaction de la forme (150,00€, #44), pour signifier « virement de 150,00€ pour le compte #44. Un attaquant sans connaître le message pourrait appliquer la fonction ( x , y ) ↦ ( 100 ⋅ x , 133 ) {\displaystyle (x,y)\mapsto (100\cdot x,133)} {\displaystyle (x,y)\mapsto (100\cdot x,133)}, ce qui dans notre cas donnerait la transaction (15 000,00€, #133), qui correspond à la transaction de 15 000,00€ pour un compte cible: #133. 
+
+2/ c'est une malléabilité

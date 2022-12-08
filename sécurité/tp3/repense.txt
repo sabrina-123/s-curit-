@@ -1,0 +1,31 @@
+//exercice 1
+
+2/cryptosysteme symetrique
+3/substitution
+
+4
+
+a/taille du bloc 4 bits
+b/taille de la clé 8 bits 
+c/2 tours
+d/
+e/ 
+
+//exercice 2
+
+1/
+
+a/ type d'attaque KPA
+
+def tc_1r(m,k):
+    return sbox[m^k]
+
+
+def attack_tc1r(m,c):
+    return xobs[c]^m
+
+
+3/16 clef de tour possible
+
+pour tester si la clé est bonne , il faut connaitre la clé du 2 eme tour
+
